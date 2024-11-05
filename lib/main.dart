@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Color.fromARGB(201, 44, 50, 63),
+        primaryColor: Color.fromARGB(44,203, 50, 63),
       ),
       home: FutureBuilder<bool>(
         future: checkLoggedInStatus(),
